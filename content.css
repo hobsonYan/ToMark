@@ -1,0 +1,40 @@
+/* ToMark - 内容脚本样式 */
+
+.tomark-highlight {
+  border-radius: 2px;
+  padding: 1px 0;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.tomark-highlight:hover {
+  opacity: 0.8;
+}
+
+.tomark-tooltip-buttons {
+  display: flex;
+  gap: 4px;
+}
+
+.tomark-color-btn {
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.tomark-color-btn:hover {
+  transform: scale(1.1);
+}
+
+.tomark-add-note {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
